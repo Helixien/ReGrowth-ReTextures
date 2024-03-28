@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<!-- ================================ Plant Patches	====================== -->
+		<operations>
+			<!-- ================================ HD Agave ====================== -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_Agave"]/plant</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Agave_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Alocasia ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Alocasia"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Alocasia_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Bamboo ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_TreeBamboo_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Berry ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/BerryPlant_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Berry"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/BerryPlant_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="RawBerries"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/Resource/PlantFoodRaw/VanillaBerries</texPath>
+				</value>
+			</li>
+			<!-- ================================ HD Brambles ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Brambles_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Bush ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Bush"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Bush_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Cecropia ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCecropia_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Chokevine ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Chokevine_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Cypress ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCypress_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Saguaro Cactus ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_SaguaroCactus"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_SaguaroCactus_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Strawberry ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Strawberry"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/StrawberryPlant_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Oak ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_TreeOak_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Poplar ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_TreePoplar_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Teak ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_TreeTeak_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Maple ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeMaple_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Willow Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/RG_TreeWillow_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

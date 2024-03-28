@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- ================ Biome Worldmap Texture Replacer================ -->
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>True</defaultValue>
+		<label>Enable new worldmap textures</label>
+		<tooltip>Enable new textures for world map biome tiles.</tooltip>
+		<id>RG_NewWorldmapTextures</id>
+		<category>RG_Retextures</category>
+		<order>110</order>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BiomeDef[defName = "Tundra"]/texture</xpath>
+				<value>
+					<texture>World/RG_Biomes/Tundra</texture>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/texture</xpath>
+				<value>
+					<texture>World/RG_Biomes/AridShrubland</texture>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!-- ================ New rock atlas texture ================ -->
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>True</defaultValue>
+		<label>Enable new rock texture</label>
+		<tooltip>Enable new textures for rock atlas and rockflecked atlas.</tooltip>
+		<id>RG_NewRockAtlasTextures</id>
+		<category>RG_Retextures</category>
+		<order>120</order>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[@Name="RockBase"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Building/Linked/RG_Rock_Atlas</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="MineableSteel" or defName="MineableSilver" or defName="MineableGold" or defName="MineableUranium" or defName="MineablePlasteel" or defName="MineableJade"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Building/Linked/RG_RockFlecked_Atlas</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VPsycastsE">
+				<xpath>/Defs/ThingDef[defName="VPE_EltexOre"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Building/Linked/RG_RockFlecked_Atlas</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="MineableComponentsIndustrial"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Linked/RG_CompactedMachinery_Atlas</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(112,89,43)</color>
+						<colorTwo>(112,89,43)</colorTwo>
+						<!--<colorTwo>(46,36,17)</colorTwo>-->
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CollapsedRocks"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Building/Natural/RG_CollapsedRocks</texPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
