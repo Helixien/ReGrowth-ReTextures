@@ -127,13 +127,6 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/TreeWillow_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
-			<!-- ================================ HD Pine Tree ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreePine_Immature</immatureGraphicPath>
-				</value>
-			</li>
 			<!-- ================================ HD Birch Tree ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant/leaflessGraphicPath</xpath>
