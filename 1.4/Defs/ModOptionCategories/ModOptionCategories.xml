@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="RG_ModOptionsBase">
+		<mods>
+			<li>ReGrowth: Core</li>
+		</mods>
+		<defName>RG_Retextures</defName>
+		<label>Textures</label>
+		<order>995</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+</Defs>
