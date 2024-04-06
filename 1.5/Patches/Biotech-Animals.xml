@@ -29,7 +29,7 @@
 									<drawSize>1.2</drawSize>
 								</dessicatedBodyGraphicData>
 								<corpseGraphicData>
-									<texPath>Things/Pawn/Animal/RG_Toxalope/CalfToxalope_corpse</texPath>
+									<texPath>Things/Pawn/Animal/RG_Toxalope/Corpse_CalfToxalope</texPath>
 									<drawSize>1.2</drawSize>
 								</corpseGraphicData>
 							</li>
@@ -48,7 +48,7 @@
 									<drawSize>1.5</drawSize>
 								</dessicatedBodyGraphicData>
 								<corpseGraphicData>
-									<texPath>Things/Pawn/Animal/RG_Toxalope/Toxalope_corpse</texPath>
+									<texPath>Things/Pawn/Animal/RG_Toxalope/Corpse_Toxalope</texPath>
 									<drawSize>1.5</drawSize>
 								</corpseGraphicData>
 							</li>
@@ -67,7 +67,7 @@
 									<drawSize>2.0</drawSize>
 								</dessicatedBodyGraphicData>
 								<corpseGraphicData>
-									<texPath>Things/Pawn/Animal/RG_Toxalope/Toxalope_corpse</texPath>
+									<texPath>Things/Pawn/Animal/RG_Toxalope/Corpse_Toxalope</texPath>
 									<drawSize>2.0</drawSize>
 								</corpseGraphicData>
 							</li>
