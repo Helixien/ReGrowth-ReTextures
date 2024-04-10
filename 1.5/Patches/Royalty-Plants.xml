@@ -8,12 +8,6 @@
 			<!-- ================================ Plant Patches	====================== -->
 			<operations>
 				<!-- ================================ HD Anima Tree ====================== -->
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/plant</xpath>
-					<value>
-						<leaflessGraphicPath>Things/Plant/_Leafless/TreeAnima_Leafless</leaflessGraphicPath>
-					</value>
-				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/plant/immatureGraphicPath</xpath>
 					<value>
