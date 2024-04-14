@@ -78,6 +78,58 @@
 					</alternateGraphics>
 				</value>
 			</li>
+			<!-- ================================ Megasloth ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/PawnKindDef[defName="Megasloth"]/lifeStages</xpath>
+				<value>
+					<lifeStages>
+						<li>
+							<label>megasloth pup</label>
+							<labelPlural>megasloth pups</labelPlural>
+							<bodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/PupMegasloth</texPath>
+								<drawSize>1.8</drawSize>
+								<shadowData>
+									<volume>(0.4, 0.3, 0.3)</volume>
+									<offset>(0,0,-0.2)</offset>
+								</shadowData>
+							</bodyGraphicData>
+							<dessicatedBodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/Dessicated_PupMegasloth</texPath>
+								<drawSize>1.8</drawSize>
+							</dessicatedBodyGraphicData>
+						</li>
+						<li>
+							<bodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/Megasloth</texPath>
+								<drawSize>2.6</drawSize>
+								<shadowData>
+									<volume>(0.6, 0.45, 0.45)</volume>
+									<offset>(0,0,-0.25)</offset>
+								</shadowData>
+							</bodyGraphicData>
+							<dessicatedBodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/Dessicated_Megasloth</texPath>
+								<drawSize>2.5</drawSize>
+							</dessicatedBodyGraphicData>
+						</li>
+						<li>
+							<bodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/Megasloth</texPath>
+								<drawSize>3.8</drawSize>
+								<shadowData>
+									<volume>(0.8, 0.6, 0.6)</volume>
+									<offset>(0,0,-0.3)</offset>
+								</shadowData>
+							</bodyGraphicData>
+							<dessicatedBodyGraphicData>
+								<texPath>Things/Pawn/Animal/RG_Megasloth/Dessicated_Megasloth</texPath>
+								<drawSize>3.7</drawSize>
+							</dessicatedBodyGraphicData>
+						</li>
+					</lifeStages>
+				</value>
+			</li>
 			<!-- ================================ Thrumbo ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/PawnKindDef[defName = "Thrumbo"]/lifeStages/li[1]/bodyGraphicData</xpath>
