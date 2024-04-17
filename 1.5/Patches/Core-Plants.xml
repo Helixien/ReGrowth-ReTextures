@@ -165,6 +165,27 @@
 					<immatureGraphicPath>Things/Plant/_Immature/TreeBirch_Immature</immatureGraphicPath>
 				</value>
 			</li>
+			<!-- ================================ HD Devilstrand ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Devilstrand"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/Devilstrand_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Healroot ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[@Name="HealrootBase"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/Healroot_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Potato ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Potato"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/PotatoPlant_Immature</immatureGraphicPath>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
