@@ -3,6 +3,23 @@
 	<!-- ================ Biome Worldmap Texture Replacer================ -->
 	<Operation Class="ModSettingsFramework.PatchOperationModOption">
 		<defaultValue>True</defaultValue>
+		<label>Enable new wood texture</label>
+		<tooltip>Enable the new texture for the wood resource.</tooltip>
+		<id>RG_NewWoodTextures</id>
+		<category>RG_Retextures</category>
+		<order>105</order>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "WoodLog"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/Resource/RG_WoodLog</texPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!-- ================ Biome Worldmap Texture Replacer================ -->
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>True</defaultValue>
 		<label>Enable new worldmap textures</label>
 		<tooltip>Enable new textures for world map biome tiles.</tooltip>
 		<id>RG_NewWorldmapTextures</id>
