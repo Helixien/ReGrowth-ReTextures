@@ -186,6 +186,13 @@
 					<immatureGraphicPath>Things/Plant/_Immature/PotatoPlant_Immature</immatureGraphicPath>
 				</value>
 			</li>
+			<!-- ================================ HD Rice ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Rice"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/RicePlant_Immature</immatureGraphicPath>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
