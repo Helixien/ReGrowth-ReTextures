@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================================== ReGrowth: Aspen Forests ==============================================-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Aspen</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- ================================ HD Aspen Trees ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="RG_Plant_TreeAspenYellow" or defName="RG_Plant_TreeAspenRed"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBirch_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
