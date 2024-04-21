@@ -21,8 +21,8 @@
 					</value>
 				</li>
 				<!-- ================================ HD Toxipotato ====================== -->
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="Plant_Toxipotato"]/plant</xpath>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Plant_Toxipotato"]/plant/immatureGraphicPath</xpath>
 					<value>
 						<immatureGraphicPath>Things/Plant/_Immature/Toxipotato_Immature</immatureGraphicPath>
 					</value>
