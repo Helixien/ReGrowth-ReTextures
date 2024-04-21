@@ -63,7 +63,6 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/Chokevine_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
-
 			<!-- ================================ HD Saguaro Cactus ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_SaguaroCactus"]/plant/leaflessGraphicPath</xpath>
