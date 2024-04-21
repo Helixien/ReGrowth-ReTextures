@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<!-- ================================ Plant Patches	====================== -->
+			<operations>
+				<!-- ================================ HD Ripthorn ====================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Plant_Ripthorn"]/plant</xpath>
+					<value>
+						<immatureGraphicPath>Things/Plant/_Immature/Ripthorn_Immature</immatureGraphicPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Plant_Ripthorn"]/plant/leaflessGraphicPath</xpath>
+					<value>
+						<leaflessGraphicPath>Things/Plant/_Leafless/Ripthorn_Leafless</leaflessGraphicPath>
+					</value>
+				</li>
+				<!-- ================================ HD Toxipotato ====================== -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Plant_Toxipotato"]/plant</xpath>
+					<value>
+						<immatureGraphicPath>Things/Plant/_Immature/Toxipotato_Immature</immatureGraphicPath>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
