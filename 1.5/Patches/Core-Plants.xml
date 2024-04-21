@@ -290,6 +290,19 @@
 					<pollutedGraphicPath>Things/Plant/_Polluted/TreeCecropia_Polluted</pollutedGraphicPath>
 				</value>
 			</li>
+			<!-- ================================ HD Tree Drago ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeDrago"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeDrago_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeDrago"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeDrago_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
