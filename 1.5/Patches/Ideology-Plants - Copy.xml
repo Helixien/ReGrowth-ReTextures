@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<!-- ================================ Plant Patches	====================== -->
+		<operations>
+			<!-- ================================ HD Timbershroom ====================== -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/Timbershroom_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/Timbershroom_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

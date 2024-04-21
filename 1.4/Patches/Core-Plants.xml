@@ -134,6 +134,13 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBirch_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
+			<!-- ================================ HD Pine Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreePine_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>

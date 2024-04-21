@@ -17,13 +17,6 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/Alocasia_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
-			<!-- ================================ HD Bamboo ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBamboo_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
 			<!-- ================================ HD Berry ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
@@ -50,18 +43,17 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/Brambles_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/Brambles_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
 			<!-- ================================ HD Bush ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Bush"]/plant/leaflessGraphicPath</xpath>
 				<value>
 					<leaflessGraphicPath>Things/Plant/_Leafless/Bush_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Tree Cecropia ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCecropia_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
 			<!-- ================================ HD Chokevine ====================== -->
@@ -71,13 +63,7 @@
 					<leaflessGraphicPath>Things/Plant/_Leafless/Chokevine_Leafless</leaflessGraphicPath>
 				</value>
 			</li>
-			<!-- ================================ HD Tree Cypress ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCypress_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
+
 			<!-- ================================ HD Saguaro Cactus ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_SaguaroCactus"]/plant/leaflessGraphicPath</xpath>
@@ -90,79 +76,6 @@
 				<xpath>/Defs/ThingDef[defName="Plant_Strawberry"]/plant/immatureGraphicPath</xpath>
 				<value>
 					<immatureGraphicPath>Things/Plant/_Immature/StrawberryPlant_Immature</immatureGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Tree Oak ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeOak_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreeOak_Immature</immatureGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Tree Poplar ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreePoplar_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreePoplar_Immature</immatureGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Tree Teak ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeTeak_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreeTeak_Immature</immatureGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Tree Maple ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeMaple_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Willow Tree ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeWillow_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Pine Tree ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreePine_Immature</immatureGraphicPath>
-				</value>
-			</li>
-			<!-- ================================ HD Birch Tree ====================== -->
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant/leaflessGraphicPath</xpath>
-				<value>
-					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBirch_Leafless</leaflessGraphicPath>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant/immatureGraphicPath</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/TreeBirch_Immature</immatureGraphicPath>
 				</value>
 			</li>
 			<!-- ================================ HD Devilstrand ====================== -->
@@ -191,6 +104,191 @@
 				<xpath>/Defs/ThingDef[defName="Plant_Rice"]/plant/immatureGraphicPath</xpath>
 				<value>
 					<immatureGraphicPath>Things/Plant/_Immature/RicePlant_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ Trees ====================== -->			
+			<!-- ================================ HD Bamboo ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBamboo_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeBamboo_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeBamboo_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Birch Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeBirch_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeBirch_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeBirch"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeBirch_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Pine Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreePine_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePine"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreePine_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Willow Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeWillow_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeWillow_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeWillow"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeWillow_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Maple ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeMaple_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeMaple_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeMaple"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeMaple_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Teak ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeTeak_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeTeak_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeTeak"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeTeak_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Poplar ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreePoplar_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreePoplar_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePoplar"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreePoplar_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Oak ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeOak_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeOak_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeOak"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeOak_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Cypress ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeCypress_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCypress_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeCypress_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<!-- ================================ HD Tree Cecropia ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreeCecropia_Immature</immatureGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/TreeCecropia_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TreeCecropia"]/plant</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/TreeCecropia_Polluted</pollutedGraphicPath>
 				</value>
 			</li>
 		</operations>
