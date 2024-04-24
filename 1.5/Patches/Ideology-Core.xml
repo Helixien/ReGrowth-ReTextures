@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- ================================ Random Christmas Tree ====================== -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="ChristmasTree"]/graphicData</xpath>
+					<value>
+						<graphicData>
+							<texPath>Things/Building/Misc/ChristmasTree</texPath>
+							<graphicClass>Graphic_Random</graphicClass>
+							<drawSize>(2.2,2.2)</drawSize>
+							<drawOffset>(0, 0, 0.75)</drawOffset>
+							<shadowData>
+								<volume>(0.8, 1.5, 0.8)</volume>
+								<offset>(0, 0, -0.25)</offset>
+							</shadowData>
+						</graphicData>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
