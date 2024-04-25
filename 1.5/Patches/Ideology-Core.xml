@@ -11,7 +11,7 @@
 					<xpath>/Defs/ThingDef[defName="ChristmasTree"]/graphicData</xpath>
 					<value>
 						<graphicData>
-							<texPath>Things/Building/Misc/ChristmasTree</texPath>
+							<texPath>Things/Building/Misc/RG_ChristmasTree</texPath>
 							<graphicClass>Graphic_Random</graphicClass>
 							<drawSize>(2.2,2.2)</drawSize>
 							<drawOffset>(0, 0, 0.75)</drawOffset>
