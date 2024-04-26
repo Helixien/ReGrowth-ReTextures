@@ -13,7 +13,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/plant/pollutedGraphicPath</xpath>
 				<value>
-					<pollutedGraphicPath>Things/Plant/_Polluted/Brambles_Polluted</pollutedGraphicPath>
+					<pollutedGraphicPath>Things/Plant/_Polluted/Chokevine_Polluted</pollutedGraphicPath>
 				</value>
 			</li>
 			<!-- ================================ HD Brambles ====================== -->

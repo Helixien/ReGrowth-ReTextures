@@ -27,6 +27,13 @@
 						<immatureGraphicPath>Things/Plant/_Immature/Toxipotato_Immature</immatureGraphicPath>
 					</value>
 				</li>
+								<!-- ================================ HD Polux Tree ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_TreePolux"]/plant/immatureGraphicPath</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/TreePolux_Immature</immatureGraphicPath>
+				</value>
+			</li>
 			</operations>
 		</match>
 	</Operation>
