@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<url/>
 	<packageId>ReGrowth.BOTR.ReTextures</packageId>
-	<modVersion IgnoreIfNoMatchingField="True">1.2-Clapham-rev1</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.2-Clapham-rev2</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/RG_ModIcon</modIconPath>
 	<description>This mod is the Retexture module, which includes any and all retextures made for the game by us. It used to be included in the Core module, but is now split into its own by popular demand.</description>
 	<modDependencies>
