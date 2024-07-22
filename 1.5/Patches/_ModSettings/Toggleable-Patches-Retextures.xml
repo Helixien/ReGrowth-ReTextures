@@ -69,7 +69,7 @@
 				</value>
 			</li>
 			<!-- Expanded Materials - Metals -->
-			<li Class="PatchOperationReplace" MayRequire="Argon.VMEu">
+			<li Class="PatchOperationReplace" MayRequire="Argon.ExpandedMaterials.Metals">
 				<xpath>/Defs/ThingDef[defName="EM_MineableCoal" or defName="EM_MineableIron" or defName="EM_MineableLead" or defName="EM_MineableTin" or defName="EM_MineableCopper"or defName="VMEu_MineableGermanium" or defName="EM_MineableTitanium" or defName="VMEu_MineableLithium"or defName="VMEu_MineableTungsten"]/graphicData/texPath</xpath>
 				<value>
 					<texPath>Things/Building/Linked/RG_RockFlecked_Atlas</texPath>
