@@ -3,7 +3,21 @@
 	<Operation Class="PatchOperationSequence">
 		<!-- ================================ Plant Patches	====================== -->
 		<operations>
-			<!-- ================================ HD Chokevine ====================== -->
+			<!-- ================================ HD Dandelion ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Dandelion"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Dandelion</texPath>
+				</value>
+			</li>
+			<!-- ================================ HD Grass ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Grass" or defName="Plant_TallGrass"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Grass</texPath>
+				</value>
+			</li>
+		<!-- ================================ HD Chokevine ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/plant/leaflessGraphicPath</xpath>
 				<value>
@@ -18,6 +32,12 @@
 			</li>
 			<!-- ================================ HD Brambles ====================== -->
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Brambles</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant/leaflessGraphicPath</xpath>
 				<value>
 					<leaflessGraphicPath>Things/Plant/_Leafless/Brambles_Leafless</leaflessGraphicPath>
@@ -27,6 +47,12 @@
 				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant/pollutedGraphicPath</xpath>
 				<value>
 					<pollutedGraphicPath>Things/Plant/_Polluted/Brambles_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/Brambles_Immature</immatureGraphicPath>
 				</value>
 			</li>
 			<!-- ================================ HD Bush ====================== -->

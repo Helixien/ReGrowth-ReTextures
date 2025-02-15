@@ -56,16 +56,22 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="MineableSteel" or defName="MineableSilver" or defName="MineableGold" or defName="MineableUranium" or defName="MineablePlasteel" or defName="MineableJade"]/graphicData/texPath</xpath>
+				<xpath>/Defs/ThingDef[defName="MineableSteel" or defName="MineableSilver" or defName="MineableGold" or defName="MineableUranium" or defName="MineablePlasteel"]/graphicData/texPath</xpath>
 				<value>
 					<texPath>Things/Building/Linked/RG_RockFlecked_Atlas</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="MineableJade"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Building/Linked/RG_CrystalRockFleck</texPath>
 				</value>
 			</li>
 			<!-- Vanilla Psycaster Expanded -->
 			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VPsycastsE">
 				<xpath>/Defs/ThingDef[defName="VPE_EltexOre"]/graphicData/texPath</xpath>
 				<value>
-					<texPath>Things/Building/Linked/RG_RockFlecked_Atlas</texPath>
+					<texPath>Things/Building/Linked/RG_CrystalRockFleck</texPath>
 				</value>
 			</li>
 			<!-- Expanded Materials - Metals -->
