@@ -3,6 +3,14 @@
 	<Operation Class="PatchOperationSequence">
 		<!-- ================================ Plant Patches	====================== -->
 		<operations>
+
+			<!-- ================================ HD Grass ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Grass" or defName="Plant_TallGrass"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Grass</texPath>
+				</value>
+			</li>
 			<!-- ================================ HD Dandelion ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Dandelion"]/graphicData/texPath</xpath>
@@ -10,11 +18,24 @@
 					<texPath>Things/Plant/RG_Dandelion</texPath>
 				</value>
 			</li>
-			<!-- ================================ HD Grass ====================== -->
+			<!-- ================================ HD Astragalus ====================== -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Plant_Grass" or defName="Plant_TallGrass"]/graphicData/texPath</xpath>
+				<xpath>/Defs/ThingDef[defName="Plant_Astragalus"]/graphicData/texPath</xpath>
 				<value>
-					<texPath>Things/Plant/RG_Grass</texPath>
+					<texPath>Things/Plant/RG_Astragalus</texPath>
+				</value>
+			</li>
+			<!-- ================================ HD Glowstool ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Glowstool"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Glowstool</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Glowstool"]/plant</xpath>
+				<value>
+					<immatureGraphicPath>Things/Plant/_Immature/Glowstool_Immature</immatureGraphicPath>
 				</value>
 			</li>
 			<!-- ================================ HD Chokevine ====================== -->
