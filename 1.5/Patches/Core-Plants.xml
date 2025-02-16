@@ -17,7 +17,13 @@
 					<texPath>Things/Plant/RG_Grass</texPath>
 				</value>
 			</li>
-		<!-- ================================ HD Chokevine ====================== -->
+			<!-- ================================ HD Chokevine ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Plant/RG_Chokevine</texPath>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Chokevine"]/plant/leaflessGraphicPath</xpath>
 				<value>
