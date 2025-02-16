@@ -49,12 +49,6 @@
 					<pollutedGraphicPath>Things/Plant/_Polluted/Brambles_Polluted</pollutedGraphicPath>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName="Plant_Brambles"]/plant</xpath>
-				<value>
-					<immatureGraphicPath>Things/Plant/_Immature/Brambles_Immature</immatureGraphicPath>
-				</value>
-			</li>
 			<!-- ================================ HD Bush ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Bush"]/plant/leaflessGraphicPath</xpath>
