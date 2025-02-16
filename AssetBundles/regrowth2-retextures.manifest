@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 40269114
+CRC: 4286317697
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 589d69350551c90ae33087df8541b882
+    Hash: 28edafd616038258da7f067fa1ccfd6c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7859cd501ea75098bcf7e53f1b477c26
@@ -16,7 +16,6 @@ Assets:
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Astragalus/AstragalusC.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Astragalus/AstragalusB.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Polluted/Brambles_Polluted/Brambles_PollutedA.psd
-- Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Immature/Brambles_Immature/BramblesA_Immature.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Immature/Dandelion_Immature/DandelionA_Immature.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Brambles/BramblesB.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Dandelion/DandelionB.psd
@@ -30,6 +29,7 @@ Assets:
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Dandelion/DandelionA.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Leafless/Brambles_Leafless/BramblesA_Leafless.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Grass/GrassC.psd
+- Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Immature/Brambles_Immature/Brambles_Immature.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/RG_Grass/GrassB.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Leafless/Chokevine_Leafless/ChokevineA_Leafless.psd
 - Assets/Data/ReGrowth-ReTextures/Textures/Things/Plant/_Leafless/Grass_Leafless/GrassB_Leafless.psd
