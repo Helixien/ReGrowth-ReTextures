@@ -11,6 +11,18 @@
 					<texPath>Things/Plant/RG_Grass</texPath>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Plant_Grass"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Grass_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Plant_TallGrass"]/plant</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Grass_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
 			<!-- ================================ HD Dandelion ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Plant_Dandelion"]/graphicData/texPath</xpath>
