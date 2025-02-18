@@ -53,11 +53,27 @@
 	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
+			<li>ReGrowth: Temperate</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- ================================ HD Temperate Plants ====================== -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="RG_Plant_GrasslandTallGrass"]/plant</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Grass_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
 			<li>ReGrowth: Tundra</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-			<!-- ================================ HD Brambles ====================== -->
+			<!-- ================================ HD Tundra Plants ====================== -->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="RG_Plant_BramblesRed" or defName="RG_Plant_BramblesYellow"]/plant/leaflessGraphicPath</xpath>
 				<value>
