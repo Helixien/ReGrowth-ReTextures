@@ -101,4 +101,26 @@
 			</operations>
 		</match>
 	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReGrowth: Tropical</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- ================================ HD Tropical Plants ====================== -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="RG_Plant_TropicalBrambles"]/plant/leaflessGraphicPath</xpath>
+				<value>
+					<leaflessGraphicPath>Things/Plant/_Leafless/Brambles_Leafless</leaflessGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="RG_Plant_TropicalBrambles"]/plant/pollutedGraphicPath</xpath>
+				<value>
+					<pollutedGraphicPath>Things/Plant/_Polluted/Brambles_Polluted</pollutedGraphicPath>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>
